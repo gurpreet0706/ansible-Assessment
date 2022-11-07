@@ -18,7 +18,7 @@
 
 6. Test the dynamic inventory configuration by listing the ec2 instances.
 
-   ansible-inventory -i /opt/ansible/inventory/aws_ec2.yaml --list 
+   ansible-inventory -i /opt/ansible-Assessment/inventory/aws_ec2.yaml --list 
 
 7. If you want to use the dynamic inventory as a default Ansible inventory, edit the /etc/ansible/ansible.cfg file and search for inventory parameters under defaults. Change the inventory parameter value as shown below.
 
